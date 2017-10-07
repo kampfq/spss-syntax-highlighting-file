@@ -2,4 +2,13 @@ This is a mirror of http://www.vim.org/scripts/script.php?script_id=5145
 
 Vim syntax file for SPSS command files (.sps).
 
+Unix line endings
+
+use Vundle and add the following lines to zour .vimrc
+
+" SPSS Syntax
+Plugin 'kampfq/spss-syntax-highlighting-file'
+" SPSS autodetect
+au BufNewFile,BufRead *.sps set filetype=spss
+
 This file highlights SPSS commands (including some common command abbreviations), subcommands, comments, and strings, based upon SPSS version 22.
