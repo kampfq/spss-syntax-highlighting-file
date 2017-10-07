@@ -4,7 +4,7 @@ Vim syntax file for SPSS command files (.sps).
 
 Unix line endings
 
-use Vundle and add the following lines to zour .vimrc
+use Vundle and add the following lines to your .vimrc
 
 " SPSS Syntax
 Plugin 'kampfq/spss-syntax-highlighting-file'
